@@ -23,7 +23,7 @@ class Pengunjung():
         return head + space + tanggal + nama + kasir + space
 
 class cucian():
-    def __init__(self, pewangi, berat, diskon, bayar):#tipe layanan sama pewangin di gui kasih listview
+    def __init__(self, pewangi, berat, diskon, bayar):
         self.pewangi= pewangi
         self.berat = berat
         self.diskon = diskon
